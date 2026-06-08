@@ -15,25 +15,25 @@ abstract class Category{
 
 class Attualita extends Category{
     public function getMyCategory(){
-        echo "Categoria: ".self::class."\n";
+        return "Categoria: ".self::class."\n";
     }
 }
 
 class Sport extends Category{
     public function getMyCategory(){
-        echo "Categoria: ".self::class."\n";
+        return "Categoria: ".self::class."\n";
     }
 }
 
 class Gossip extends Category{
     public function getMyCategory(){
-        echo "Categoria: ".self::class."\n";
+        return "Categoria: ".self::class."\n";
     }
 }
 
 class Storia extends Category{
     public function getMyCategory(){
-        echo "Categoria: ".self::class."\n";
+        return "Categoria: ".self::class."\n";
     }
 }
 
@@ -43,7 +43,7 @@ $sport = new Sport();
 $gossip = new Gossip();
 $storia = new Storia();
 
-$attualita->getMyCategory();
-$sport->getMyCategory();
-$gossip->getMyCategory();
-$storia->getMyCategory();
+// echo $attualita->getMyCategory();
+// echo $sport->getMyCategory();
+// echo $gossip->getMyCategory();
+// echo $storia->getMyCategory();
